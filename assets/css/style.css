@@ -1,0 +1,22 @@
+/*#1E1E24 - Black*/
+/*#F7934C - Orange*/
+/*#FF00FF - Violet*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	background-color: rgba(68,66,73,0.9);
+	box-shadow: 0 10px 20px #FF00FF;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+body {
+	background-color: black;
+}

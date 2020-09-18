@@ -160,10 +160,69 @@ i:hover {
   	text-align: center;
 }
 
-.play {
+.playButton {
 	display: none !important;
 }
 
+
+
+/*///////////////////REGISTER/////////////////////////////////*/
+
+.signupContainer {
+	background-image: url(./../images/dice.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: white;
+}
+
+.form {
+	padding-top: 120px;
+	padding-bottom: 50px;
+}
+
+input {
+	margin-bottom: 20px !important;
+}
+
+
+
+/*///////////////////LOGIN/////////////////////////////////*/
+.loginContainer {
+	background-image: url(./../images/chips.jpeg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: white;
+}
+.loginRow {
+	margin-top: 100px !important;
+}
+
+.forgot {
+	margin-top: 20px;
+}
+.forgot a{
+	color: #FF8C00 !important;
+}
+
+.loginForm {
+	background-color: rgba(0,0,0,0.7);
+	box-shadow: 0 5px 12px #8A2BE2;
+	margin-bottom: 50px;
+}
+
+h2 {
+	padding-top: 20px;
+}
+
+
+
+/*///////////////////LOGIN/////////////////////////////////*/
+.dingdongBody {
+	background-image: url(./../images/dingdong.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: white;
+}
 
 
 

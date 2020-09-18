@@ -5,11 +5,19 @@
 * {
 	font-family: 'Kumbh Sans', sans-serif;
 }
+hr {
+	background-color: #F7934C;
+}
 
 div {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+.homeBody {
+	background-color: #1E1E24;
+	color: white;
 }
 
 nav {
@@ -96,6 +104,26 @@ i:hover {
 	box-shadow: 0 5px 12px #8A2BE2;
 } 
 
+/*///////////////////G-A-M-E-S/////////////////////////////////*/
+.homeGames {
+	background-color: #1E1E24;
+}
+
+.gamesRow1 {
+	padding-top: 120px;
+	padding-bottom: 70px;
+}
+
+.card {
+	margin-bottom: 50px;
+	box-shadow: 0 5px 12px #8A2BE2;
+}
+
+.gamesH2 {
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
 
 
 

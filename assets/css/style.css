@@ -306,8 +306,7 @@ a h2 {
 /*Media Query*/
 @media (max-width: 1024px) {
 
-.loginForm {
-	height: 50vh;	
+.loginForm {	
 	margin-bottom: 500px;
 }	
 

@@ -106,7 +106,15 @@ i:hover {
 	transform: scale(1.1);
 	color: #F7934C !important;
 	box-shadow: 0 5px 12px #8A2BE2;
+}
+
+.star {
+	font-size: 15px;
 } 
+
+.testimonials {
+	padding-bottom: 70px;
+}
 
 /*///////////////////G-A-M-E-S/////////////////////////////////*/
 .homeGames {

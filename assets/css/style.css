@@ -196,8 +196,8 @@ input {
 
 .signupCol {
 	margin-top: 120px !important;
-	background-color: rgba(255, 255, 255,0.2);
-	box-shadow: 0 5px 12px #8A2BE2;
+	background-color: rgba(0,0,0,0.7);
+	box-shadow: 5px 5px 5px 8px #8A2BE2;
 	margin-bottom: 80px;
 }
 
@@ -227,7 +227,7 @@ p a {
 
 .loginForm {
 	background-color: rgba(0,0,0,0.7);
-	box-shadow: 0 5px 12px #8A2BE2;
+	box-shadow: 5px 5px 5px 8px #8A2BE2;
 	margin-bottom: 50px;
 }
 
@@ -307,13 +307,13 @@ a h2 {
 /*Media Query*/
 @media (max-width: 1024px) {
 
-.loginForm {	
-	margin-bottom: 500px;
-}	
+	.loginForm {	
+		margin-bottom: 700px;
+	}	
 
-.signupCol {
-	margin-bottom: 500px;
-}
+	.signupCol {
+		margin-bottom: 500px;
+	}
 	
 }
 
@@ -322,14 +322,27 @@ a h2 {
 
 @media (max-width: 952px) {
 
+	.loginForm {	
+		margin-bottom: 400px;
+	}	
 
+	.signupCol {
+		margin-bottom: 100px;
+	}
+
+	.gif {
+		width: 100%;
+	}
+	.navbar-nav li{
+		text-align: center;
+	}
 	
 }
 
 
 
 
-@media (max-width: 860px) {
+@media (max-width: 767px) {
 
 	.navbar-nav {
 		padding: 5px !important;
@@ -368,5 +381,13 @@ a h2 {
 		width: 90%;
 		padding: 0 !important;
 		margin: 0 !important;
+	}
+
+	.loginForm {	
+		margin-bottom: 100px;
+	}	
+
+	.signupCol {
+		margin-bottom: 100px;
 	}
 }

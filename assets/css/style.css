@@ -176,12 +176,19 @@ i:hover {
 }
 
 .form {
-	padding-top: 120px;
+	
 	padding-bottom: 50px;
 }
 
 input {
 	margin-bottom: 20px !important;
+}
+
+.signupCol {
+	margin-top: 120px !important;
+	background-color: rgba(255, 255, 255,0.2);
+	box-shadow: 0 5px 12px #8A2BE2;
+	margin-bottom: 50px;
 }
 
 
@@ -216,12 +223,61 @@ h2 {
 
 
 
-/*///////////////////LOGIN/////////////////////////////////*/
-.dingdongBody {
+/*///////////////////DingDong/////////////////////////////////*/
+.dingdongBody {	
+	color: white;
+}
+
+
+.dingdongRow {
 	background-image: url(./../images/dingdong.jpg);
 	background-attachment: fixed;
 	background-size: 100% 100%;
-	color: white;
+	position: relative;
+	height: 100vh;
+}
+
+.gif {
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+
+
+.dingdongRow2 {
+	background-color: #1E1E24;
+
+}
+
+.mobile {
+	padding-top: 150px;
+}
+
+
+a h2 {
+	color: #FF8C00 !important;
+}
+
+.phones img {
+	height: 500px;
+	width: 100%;
+}
+
+.sasa {
+	background-image: url(./../images/sasa.gif);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	position: relative;
+	height: 75vh;
+}
+
+.join {
+	background-color: #1E1E24;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 
@@ -281,7 +337,14 @@ h2 {
 		padding: 10px;
 	}
 
-	.play {
+	.playButton {
 		display: block !important;
+		background-color: #8A2BE2 !important;
+	}
+
+	.gif {
+		width: 90%;
+		padding: 0 !important;
+		margin: 0 !important;
 	}
 }
